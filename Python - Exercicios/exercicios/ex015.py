@@ -4,6 +4,6 @@
 kmPercorridos = float(input('Quantos km foram percorridos: '))
 qtdDias = int(input('Por quantos dias o carro foi alugado: '))
 
-valorPagar = (kmPercorridos * 0.15) + (qtdDias*60.0)
+valorPagar = (kmPercorridos * 0.15) + (qtdDias * 60.0)
 
 print('O valor a ser pago pelo carro é de R${}'.format(valorPagar))
