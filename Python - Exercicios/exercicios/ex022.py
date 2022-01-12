@@ -4,10 +4,9 @@
     # 3 - QUANTAS LETRAS AO TODO SEM CONSIDERAR O ESPAÇO
     # 4 - QUANTAS LETRAS TEM O PRIMEIRO NOME
 
-nome = input('Qual o seu nome completo ')
+nome = str(input('Qual o seu nome completo '))
 maiuscula = nome.upper()
 print('O seu nome com letras maisuculas é {}'.format(maiuscula))
-
 print('O seu nome com todas as letras minusculas é: ', nome.lower())
 
 lista = nome.split()
