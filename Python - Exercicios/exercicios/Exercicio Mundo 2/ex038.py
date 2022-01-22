@@ -6,7 +6,6 @@
 numero1 = int(input('Informe o primeiro valor: '))
 numero2 = int(input('Informe o segundo valor: '))
 
-#numero1 == 'maior'
 
 if numero2 > numero1:
     print('O numero {} é maior que o numero {}'.format(numero2, numero1))

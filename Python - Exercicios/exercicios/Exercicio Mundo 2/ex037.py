@@ -4,14 +4,14 @@
 # 3 - PARA HEXADECIMAL
 
 numero = int(input('Informe um numero inteiro qualquer: '))
-base = str(input('O numero deve ser convertido para qual base?')).upper()
+base = str(input('O numero deve ser convertido para qual base? ')).upper()
 if base == 'BINARIO':
     binario = bin(numero)
-    print('O numero informado na base binária é: {}'.format(binario))
+    print('O numero informado na base binária é: {}'.format(binario[2:]))
 elif base == 'OCTAL':
     octal = oct(numero)
-    print('O numero informado na base octal é: {}'.format(octal))
+    print('O numero informado na base octal é: {}'.format(octal[2:]))
 else:
     hexa = hex(numero)
-    print('O numero informado na base hexadecimal é: {}'.format(hexa))
+    print('O numero informado na base hexadecimal é: {}'.format(hexa[2:]))
 
